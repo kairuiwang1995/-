@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	width: 100%;
+	height: 80px;
+	background: #FFA500;
+	min-width: 1200px;
+
+}
+.content{
+	width:1000px;
+	height:80px;
+	margin: 0 auto;
+}
+.content img{
+	position: relative;
+	top: 21px;
+}
+
+.search{
+	width: 384px;
+	height:36px;
+	background: url("../img/header.png") no-repeat 0 -38px;
+	padding-top: 2px;
+	padding-left: 37px;
+	margin-top: -21px;
+	margin-left: 289.5px;
+}
+.search input{
+	width: 280px;
+	height: 30px;
+	font-size: 18px;
+}
+
+.search span{
+	margin-left: 25px;
+	color: #ffffff;
+}
+			
+
+.f1{
+	float:left
+}
+.car{
+		width: 100%;
+		height: 55px;
+		line-height: 55px;
+		background-color: #f5f5f5;
+		text-align: center;
+		min-width: 1000px;
+}
+.car a{
+	font-size:18px;
+	text-decoration:none;
+}
+
+.car span{
+	color:red;
+}
+
+.mt{
+	width:1000px;
+	margin:5px auto;
+}
+.mt .dt{
+	width:230px;
+	padding:10px;
+	height:280px;
+	background-color:#FFF;
+	border-bottom:2px #ccc solid;
+}
+.mt .dt img{
+	width:230px;
+	height:160px;
+	margin-bottom:10px;
+}
+.dt .month{
+	color:orange;
+	font-size:12px;
+}
+
+.dt .size{
+	color:#ccc;
+	font-size:12px;
+}
+
+.mt .total{
+	width:1000px;
+	background-color:#FFF;
+	border-bottom:1px #ccc solid;
+}
+.total .heji{color:red;}
+	
+	

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>美团外卖</title>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+
+
+	</head>
+	<body>
+		<div id="header">
+			<div class="content">
+				<img src="img/ceiling-logo2.png" />
+				<div class="search">
+					<input type="text" /><span>搜索</span>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="car">
+			<a href="javascript:myCart()">我的购物车(<span id="count">0</span>)</a>
+		</div>
+
+		<div id="dinner" class="mt">
+			<!--A米汉堡-->
+			<div class="dt f1">
+				<img src="img/1cde.jpg" />
+				<table width="230px" cellspacing="7px" id="ta">
+					<tr>
+						<td colspan="2">A米汉堡</td>
+						<td align="right">16元/份</td>
+					</tr>
+					<tr>
+						<td colspan="3" class="month" align="right">月销量2787单</td>
+					</tr>
+					<tr class="size">
+						<td>起送￥10</td>
+						<td>免费送费</td>
+						<td align="right">45分钟</td>
+					</tr>
+					<tr>
+						<td colspan="3" align="right"><input type="button" value="加入购物车" onclick="add(this)"></td>
+					</tr>
+				</table>
+			</div>
+			<!--杨记小厨-->
+			<div class="dt f1">
+				<img src="img/3a31d.jpg" />
+				<table width="230px" cellspacing="7px">
+					<tr>
+						<td colspan="2">杨记小厨</td>
+						<td align="right">17.5元/份</td>
+					</tr>
+					<tr>
+						<td colspan="3" class="month" align="right">月销量4639单</td>
+					</tr>
+					<tr class="size">
+						<td>起送￥10</td>
+						<td>免费送费</td>
+						<td align="right">38分钟</td>
+					</tr>
+					<tr>
+						<td colspan="3" align="right"><input type="button" value="加入购物车" onclick="add(this)"></td>
+					</tr>
+				</table>
+			</div>
+			<!--杨明宇黄焖鸡米饭-->
+			<div class="dt f1">
+				<img src="img/9ecd.jpg" />
+				<table width="230px" cellspacing="7px">
+					<tr>
+						<td colspan="2">杨明宇黄焖鸡米饭</td>
+						<td align="right">18元/份</td>
+					</tr>
+					<tr>
+						<td colspan="3" class="month" align="right">月销量2571单</td>
+					</tr>
+					<tr class="size">
+						<td>起送￥10</td>
+						<td>免费送费</td>
+						<td align="right">25分钟</td>
+					</tr>
+					<tr>
+						<td colspan="3" align="right"><input type="button" value="加入购物车" onclick="add(this)"></td>
+					</tr>
+				</table>
+			</div>
+			<!--烤肉拌饭-->
+			<div class="dt f1">
+				<img src="img/d64c553.jpg" />
+				<table width="230px" cellspacing="7px">
+					<tr>
+						<td colspan="2">烤肉拌饭</td>
+						<td align="right">18元/份</td>
+					</tr>
+					<tr>
+						<td colspan="3" class="month" align="right">月销量2347单</td>
+					</tr>
+					<tr class="size">
+						<td>起送￥0</td>
+						<td>免费送费</td>
+						<td align="right">29分钟</td>
+					</tr>
+					<tr>
+						<td colspan="3" align="right"><input type="button" value="加入购物车" onclick="add(this)"></td>
+					</tr>
+				</table>
+			</div>
+			<!--有名堂-->
+			<div class="dt f1">
+				<img src="img/3d875.jpg" />
+				<table width="230px" cellspacing="7px">
+					<tr>
+						<td colspan="2">有名堂(焗饭、小炒)</td>
+						<td align="right">14元/份</td>
+					</tr>
+					<tr>
+						<td colspan="3" class="month" align="right">月销量2156单</td>
+					</tr>
+					<tr class="size">
+						<td>起送￥0</td>
+						<td>免费送费</td>
+						<td align="right">43分钟</td>
+					</tr>
+					<tr>
+						<td colspan="3" align="right"><input type="button" value="加入购物车" onclick="add(this)"></td>
+					</tr>
+				</table>
+			</div>
+			<!--翔仔湾-->
+			<div class="dt f1">
+				<img src="img/880259b.jpg" />
+				<table width="230px" cellspacing="7px">
+					<tr>
+						<td colspan="2">翔仔湾(美食特惠!)</td>
+						<td align="right">20元/份</td>
+					</tr>
+					<tr>
+						<td colspan="3" class="month" align="right">月销量1803单</td>
+					</tr>
+					<tr class="size">
+						<td>起送￥10</td>
+						<td>免费送费</td>
+						<td align="right">34分钟</td>
+					</tr>
+					<tr>
+						<td colspan="3" align="right"><input type="button" value="加入购物车" onclick="add(this)"></td>
+					</tr>
+				</table>
+			</div>
+			<!--时尚便当-->
+			<div class="dt f1">
+				<img src="img/1b718f.jpg" />
+				<table width="230px" cellspacing="7px">
+					<tr>
+						<td colspan="2">时尚便当</td>
+						<td align="right">21元/份</td>
+					</tr>
+					<tr>
+						<td colspan="3" class="month" align="right">月销量3554单</td>
+					</tr>
+					<tr class="size">
+						<td>起送￥12</td>
+						<td>免费送费</td>
+						<td align="right">45分钟</td>
+					</tr>
+					<tr>
+						<td colspan="3" align="right"><input type="button" value="加入购物车" onclick="add(this)"></td>
+					</tr>
+				</table>
+			</div>
+			<!--格子那只水饺-->
+			<div class="dt f1">
+				<img src="img/4c981e4.jpg" />
+				<table width="230px" cellspacing="7px">
+					<tr>
+						<td colspan="2">格子那只水饺</td>
+						<td align="right">13元/份</td>
+					</tr>
+					<tr>
+						<td colspan="3" class="month" align="right">月销量2682单</td>
+					</tr>
+					<tr class="size">
+						<td>起送￥10</td>
+						<td>免费送费</td>
+						<td align="right">23分钟</td>
+					</tr>
+					<tr>
+						<td colspan="3" align="right"><input type="button" value="加入购物车" onclick="add(this)"></td>
+					</tr>
+				</table>
+			</div>
+
+		</div>
+		<div id="cart" class="mt" style="display:none">
+			<div id="menu" class="total">
+				<table width="1000px" cellspacing="1px" id="cartTable">
+					<tr style="background-color:#B5E0FF">
+						<td>全选<input type="checkbox" id="all" onclick="qx(this)" /></td>
+						<td>菜品</td>
+						<td>价格(元/份)</td>
+						<td>数量</td>
+						<td>操作</td>
+					</tr>
+				</table>
+			</div>
+			<div id="price" class="total">
+				<table width="1000px" cellspacing="1px">
+					<tr>
+						<td><input type="button" id="btn" value="删除选中" disabled="disabled" onclick="clearAll()" /></td>
+						<td></td>
+						<td></td>
+						<td class="heji" align="right">合计￥<span id="rmb">0</span><input type="button" value="结算" onclick="pay()" /></td>
+					</tr>
+					<tr>
+						<td><a href="javascript:godinner()">继续任性点餐</a></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+
+	</body>
+	<script src="js/js.js" type="text/javascript" charset="utf-8"></script>
+</html>
